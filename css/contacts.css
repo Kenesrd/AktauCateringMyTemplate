@@ -1,0 +1,231 @@
+/* ======== 2 contacts =========*/
+.bg-befor-con {
+    position: relative;
+    overflow: hidden;
+}
+.bg-befor-con:before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: var(--pink-color);
+    top: 0;
+}
+.po-i-ser44 {
+    position: absolute;
+    left: -8em;
+    bottom: 26%;
+}
+.img-cer {
+    -webkit-animation: rotation 30s linear infinite;
+    -moz-animation: rotation 30s linear infinite;
+    -ms-animation: rotation 30s linear infinite;
+    -o-animation: rotation 30s linear infinite;
+    animation: rotation 30s linear infinite;
+}
+.bg-befor-con .po-i-ser44 img {
+    width: 259px;
+}
+
+.po-i-ser44 img {
+    width: 295px;
+}
+.po-i-ser445 {
+    position: absolute;
+    right: -8em;
+    bottom: 26%;
+}
+.bg-befor-con .po-i-ser445 img {
+    width: 259px;
+}
+
+.po-i-ser445 img {
+    width: 280px;
+}   
+.mar-auto-add {
+    margin: auto;
+    position: relative;
+}
+.add-con {
+    padding: 14px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background: #f8f8f8;
+    border: 1px solid #cacaca;
+    width: 100%;
+    min-height: 100px;
+    vertical-align: initial;
+}
+span.left-co-i {
+    width: 70px;
+    height: 70px;
+    background: #ffbe00;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+span.left-co-i {
+    width: 60px;
+    height: 60px;
+    background: var(--pink-color);
+    display: inline-block;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 60px;
+}
+.con-text h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #555555;
+}
+.con-text p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color: #555555;
+    line-height: 22px;
+}
+.mart-0-cont {
+    margin-top: 0px;
+    box-shadow: 0px 5px 19.53px 1.47px rgb(85 80 98 / 19%);
+}
+
+.post-comment {
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+.mart-0-cont .comment-re h2 {
+    margin-bottom: 17px;
+}
+
+.comment-re h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #000000;
+}
+.mart-0-cont .form-group {
+    margin-bottom: 14px;
+}   
+.form-com {
+    min-height: 49px;
+    background: #f8f8f8;
+}
+.mart-0-cont .form-com-message {
+    min-height: 71px;
+    background: #f8f8f8;
+}
+.mart-0-cont button.animation-cer-btn {
+    margin-top: 0px;
+}
+.view-all button {
+    border: none;
+}
+.animation-cer-btn {
+    background: var(--pink-color);
+    padding: 17px 30px;
+    color: #000;
+    font-size: 18px;
+    border-radius: 41px;
+    position: relative;
+    margin-top: 1em;
+    display: inline-block;
+}
+button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.animation-cer-btn i {
+    margin-left: 15px;
+}
+.line2 {
+    position: absolute;
+    left: 7px;
+    right: 7px;
+    top: 7px;
+    bottom: 7px;
+    border-radius: 40px;
+    border: 2px dashed #252525;
+}
+
+.animation-cer-btn:hover {
+    background: #252525;
+    color: var(--pink-color);
+}
+
+.animation-cer-btn:hover .line2 {
+    border: 2px dashed var(--pink-color);
+}
+.post-com p {
+    font-weight: normal;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #5d5a77;
+    /* color: #2c2c2c; */
+    margin-bottom: 15px;
+}
+/* ======== 2 contacts end=========*/
+
+/* ==============Mobile========== */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .pt-90 {
+        padding-top: 50px;
+    }
+    .bg-befor-con .img-cer {
+        display: none;
+    }
+    .row.col-md-11.mar-auto-add {
+        min-width: 100%;
+        padding: 0px;
+    }
+    .add-con {
+        margin-bottom: 0;
+    }
+    span.left-co-i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .left-co-i img {
+        height: 38px;
+    }
+    .con-text {
+        width: 69%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .pt-90 {
+        padding-top: 60px;
+    }
+    .bg-befor-con .img-cer {
+        display: none;
+    }
+    span.left-co-i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .left-co-i img {
+        height: 38px;
+    }
+    .con-text {
+        width: 70%;
+        float: left;
+    }
+}   
